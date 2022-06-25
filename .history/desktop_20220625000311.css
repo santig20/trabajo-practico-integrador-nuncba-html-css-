@@ -1,0 +1,12 @@
+.registro_container ul {
+  
+    font-size:1.3rem;
+ 
+    }
+
+    .navmain ul {
+
+        display: flex;
+        font-size:1.3rem;
+    gap:.9rem;
+    }

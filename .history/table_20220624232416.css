@@ -1,0 +1,48 @@
+
+header {
+  justify-content: space-between;
+}
+
+
+
+.navmain {
+
+    display: flex;
+}
+.navmain ul {
+
+    display: flex;
+    font-size:1rem;
+gap:.9rem;
+}
+.navmain ul li {
+list-style: none;
+}
+.navmain ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+  
+}
+.navmain ul li   :hover {
+    background-color: #7739d2;
+    padding:.4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.registro_container ul {
+  
+   font-size:1rem;
+
+   }
+
+   .player_container {
+   flex-direction: row;
+   justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 2rem;
+
+
+   }

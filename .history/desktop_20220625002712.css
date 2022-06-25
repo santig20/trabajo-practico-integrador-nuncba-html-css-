@@ -1,0 +1,23 @@
+.registro_container ul {
+  
+    font-size:1.5rem;
+ 
+    }
+
+    .navmain ul {
+
+        display: flex;
+        font-size:1.5rem;
+    gap:.9rem;
+    }
+.texto_hero {
+        display:block;
+       
+    }
+    .hero_section {
+        display: flex;
+    }
+    
+    .texto_hero  {
+        flex-direction: column;
+    }

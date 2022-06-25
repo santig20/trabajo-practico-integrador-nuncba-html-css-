@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+html {
+    font-size: 62.5%;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'inter';
+}
+
+ /* inico header*/
+header {
+    display: flex;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 6%, rgba(88,32,144,1) 42%, rgba(61,9,121,1) 64%);
+    height: 100%;
+}
+.img_header img{
+    height: 8rem;
+    width: 8rem;
+}
+.navmain{
+ display: none;
+}
+
+.registro_container ul {
+    display: flex;
+font-size:2rem;
+gap:3rem;
+
+}
+.registro_container ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.registro_container ul li a{
+  
+    text-transform: uppercase;
+    color: #dfcc97;
+    font-weight: 600;
+    
+}
+
+/*hero section*/
+
+.texto_hero {
+    display: none;
+}
+.img_hero img {
+ width: 32rem;
+}
+
+/*player section */
+.player_container{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 6%, rgba(88,32,144,1) 42%, rgba(61,9,121,1) 64%);
+}
+
+.texto_players {
+     font-size: 5rem;
+     font-weight: 700;
+}
+
+.player_container img{
+    width: 10rem;
+}
+
+
+
+
+/* partners section */
+
+
+.partners img {
+    width: 2rem;
+}

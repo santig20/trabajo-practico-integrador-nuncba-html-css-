@@ -1,0 +1,16 @@
+
+header {
+  justify-content: space-between;
+}
+
+
+
+.navmain {
+
+    display: flex;
+}
+.navmain ul {
+
+    display: flex;
+}
+.navmain ul

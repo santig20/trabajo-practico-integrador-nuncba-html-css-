@@ -1,0 +1,87 @@
+.hero_section{
+    position: relative;
+}
+.registro_container ul {
+  
+    font-size:1.5rem;
+ 
+    }
+
+    .navmain ul {
+
+        display: flex;
+        font-size:1.5rem;
+    gap:.9rem;
+    }
+
+    .hero_section {
+        display: flex;
+    }
+
+    .texto_hero {
+        display: flex;
+        flex-direction: column;
+        padding:1rem   ;
+        background-color:#7739d2 ;
+        color: white;
+    }
+    .texto_hero h1{
+        font-size: 4rem
+    }
+    
+    .texto_hero h2 {
+        font-size: 3rem 
+    }
+    .texto_hero {
+        font-size: 1.5rem;
+    }
+
+    .img_hero img{
+      height: 30rem;
+    }
+
+   .redes{
+    position: fixed;
+     display :flex;
+    flex-direction: column;
+   right: 1rem;
+padding: 1rem 0;
+ 
+   }
+
+   .redes i {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+   }
+   .redes   .fa-youtube {
+    color: red;
+    padding-top: 1rem;
+   }
+   .redes  .fa-twitter {
+    color:#1d9bf0;
+   }
+   .redes  .fa-facebook{
+    color:#0879e9;
+   }
+   
+   .redes  .fa-twich{
+    color:#7739d2;
+   }
+   .texto_hero p{
+    font-size: 1.7rem;
+   }
+   .texto_hero p a {
+    color:white;
+    text-transform:uppercase ;
+    text-decoration: none;
+    background-color: #2d0350;
+    padding: .3rem;
+    border-radius: 1rem;
+   }
+
+   .historia_content p{
+    font-size: 1.6rem;
+    width: 70%;
+   }
+
+

@@ -1,0 +1,116 @@
+
+header {
+  justify-content: space-between;
+}
+
+
+
+.navmain {
+
+    display: flex;
+}
+.navmain ul {
+
+    display: flex;
+    font-size:1rem;
+gap:.9rem;
+}
+.navmain ul li {
+list-style: none;
+}
+.navmain ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+  
+}
+.navmain ul li   :hover {
+    background-color: #7739d2;
+    padding:.4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.registro_container ul {
+  
+   font-size:1rem;
+
+   }
+
+   .player_container {
+   
+   flex-direction: row;
+   justify-content: space-around;
+  flex-wrap: wrap;
+padding-bottom: 2rem;
+   }
+   .player_david {
+    margin: 0 1rem;
+   }
+
+
+   .fotos figure img {
+    width: 14.3%;
+  padding:1rem 0 ;
+
+  margin: 0 1rem;
+}
+
+@keyframes fotos {
+    0%{
+        left: -25;
+    }
+
+    5%{
+        left: -25;
+    }
+
+   14.3%{
+        left: -50;
+    }
+    21.5% {
+        left: -50%;
+    }
+
+   28.6%{
+       left: -100%;
+    }
+
+    35.75%{
+        left: -100%;
+    }
+
+    42.9%{
+        left:-150%;
+    }
+
+   50.05% {
+        left : -150%;
+    }
+
+   57.2% {
+        left: -200%;
+    }
+  64.35% {
+        left: -200%;
+    }
+  71.5% {
+        left: -250%;
+    }
+
+    78.65% {
+        left: -250%;
+    }
+
+   85.8% {
+        left: -300%;
+    }
+
+   92.9% {
+        left: -300%;
+    }
+    100% {
+        left: -300%;
+    }
+}
